@@ -1,0 +1,42 @@
+.image {
+    /* display: flex;
+    justify-content: row; */
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    margin: 10px;
+    border: 1px solid #E7E7E7;
+}
+
+.image:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    cursor: zoom-in;
+}
+
+li { 
+    list-style: none;
+}
+
+.delete {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #E7E7E7;
+    border-radius: 5px;
+    color: #660000;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.delete:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px #E7E7E7
+}
+
+.wallpaper {
+    margin-bottom: 25px;
+    padding: 5px;
+    border: 1px solid #E7E7E7;
+    border-radius: 5px;
+    /* box-shadow: 2px 2px #E7E7E7; */
+}
